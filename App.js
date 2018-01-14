@@ -1,12 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import BodyText from './src/elements/BodyText';
+
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text>Hi!</Text>
         <Text>Hello!!</Text>
+        <BodyText>test!!!</BodyText>
       </View>
     );
   }
